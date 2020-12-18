@@ -1,0 +1,23 @@
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+table tr th{
+    background-color: rgb(100, 120, 255);
+}
+table tr:nth-child(even){
+    background-color: rgb(150, 180, 255);
+}
+table tr:nth-child(odd){
+    background-color: rgb(200, 215, 255);
+}
+#filter{
+    margin-bottom: 10px;
+}
+.linkovi{
+    display: inline-block;
+    vertical-align: top;
+}
+.linkovi a{
+    display: block;
+}
